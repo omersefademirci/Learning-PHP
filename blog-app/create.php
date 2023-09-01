@@ -7,8 +7,9 @@
         $baslik = $_POST["baslik"];
         $aciklama = $_POST["aciklama"];
         $resimurl = $_POST["resimurl"];
+        $url = $_POST["url"];
         
-        filmEkle($baslik, $aciklama, $resimurl);
+        filmEkle($baslik, $aciklama, $resimur,$url);
         header('Location: index.php');
     }
 
@@ -40,6 +41,10 @@
                         <div class="mb-3">
                             <label for="resimurl" class="form-label">Resim</label>
                             <input type="text" name="resimurl" class="form-control" id="resimurl">
+                        </div>
+                        <div class="mb-3">
+                            <label for="url" class="form-label">Url</label>
+                            <input type="text" name="url" class="form-control" id="url">
                         </div>
 
                         <div class="mb-3">
