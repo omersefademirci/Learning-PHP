@@ -12,3 +12,9 @@ require 'test.txt';
  * Hata var ise çalışmayı durdurmaz devam eder
  */
 include 'test.txt';
+
+/**
+ * Bir dosyanın birden fazla entegre edilmesini istemiyor isek
+ */
+
+ include_once 'test.txt';
