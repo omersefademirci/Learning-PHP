@@ -17,7 +17,7 @@ try{
 }
 echo "<pre>";
 
-$sql = "SELECT * FROM users WHERE user_name LIKE %Sefa%";
+$sql = "SELECT user_name FROM users WHERE user_name LIKE '%SEFA%' ";
 
 $q = $db->query($sql);
 
