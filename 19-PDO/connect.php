@@ -23,7 +23,6 @@ try{
     
     echo $exception->getMessage();
 }
-echo "<pre>";
 
 
 
